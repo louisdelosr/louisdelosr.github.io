@@ -285,7 +285,6 @@ h1 a {
 }
 
 .landingbox:hover img {
-	zoom: initial;
   	filter: alpha(opacity=1);
   	opacity: 1;
 }
