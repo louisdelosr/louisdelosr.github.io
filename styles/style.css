@@ -304,6 +304,12 @@ h1 a {
 	-webkit-backface-visibility: hidden;
 }
 
+.centered:hover .landingbox img {
+	zoom: initial;
+	filter: alpha(opacity=1);
+  	opacity: 1;
+}
+
 /* w3 Fullscreen overlay */
 
 /*.overlay a {
