@@ -290,6 +290,12 @@ h1 a {
   	opacity: 1;
 }
 
+.landingbox:hover img {
+	zoom: initial;
+	filter: alpha(opacity=1);
+  	opacity: 1;
+}
+
 .centered {
 	position: absolute;
 	top: 50%;
