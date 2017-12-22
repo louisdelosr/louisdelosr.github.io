@@ -1,2 +1,2 @@
 # louisdelosr.github.io
-Portfolio Updated December 22, 2017 [v0.5]
+Portfolio Updated December 22, 2017 [v0.2]
