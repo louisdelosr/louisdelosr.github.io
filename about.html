@@ -3,18 +3,18 @@
 <html lang="en-us">
 <head>
 	<meta charset="utf-8">
-	<title>Louis delos Reyes</title>
+	<title>Louis delos Reyes | About</title>
 	<meta name="description" content="Louis delos Reyes' Online Portfolio" />
 	<meta name="keywords" content="portfolio, web, design, UX, UI" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Karla:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cairo:200" rel="stylesheet">
-	<script src="js/mobilemenu.js"></script>
 	<link rel="shortcut icon" href="img/LDR32.png">
+	<script src="js/mobilemenu.js"></script>
 </head>
 <body id="all">
 
@@ -29,17 +29,21 @@
 <div class="ontop">
 	<div class="menu">
 		<ul>
-			<a href="work.html"><li id="current">Work</li></a>
+			<li><a href="work.html">Work</a></li>
 		</ul>
 	</div>
 
 	<div class="rightmenu">
 		<ul>
-			<li><a href="contact.html">Media & Experience</a></li>
+			<li id="current">Media & Experience</li>
+			<!--<img src="img/chat-bubble.png" alt="chat bubble" height="35px" width="35px">-->
+			<li><a href="contact.html">Contact me</a></li>
+			<!--<img src="img/scroll.png" alt="scroll" height="35px" width="35px">-->
+			<li><a href="about.html">About me</a></li>
 		</ul>
 	</div>
 
-	<h1><a href="#">LOUIS DELOS REYES</a></h1>
+	<h1><a href="index.html">LOUIS DELOS REYES</a></h1>
 </div>
 
 <div id="fade">
@@ -50,46 +54,17 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
     <a href="work.html#web" onclick="closeNav()">Web</a>
-    <a href="work.html#graphix" onclick="closeNav()">Graphics</a>
+    <a href="work.html#graphics" onclick="closeNav()">Graphics</a>
     <a href="work.html#interactive" onclick="closeNav()">Interactive</a>
     <a href="contact.html" onclick="closeNav()">Contact me</a>
-    <a href="about.html" onclick="closeNav()">About me</a>
+    <a id="current" href="about.html" onclick="closeNav()">About me</a>
   </div>
 </div>
 
 <!-- w3 end https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp -->
 
-<p class="intro">Louis delos Reyes is a freelance web developer living in Toronto, ON.</p>
+<p class="about">In 2017 Louis delos Reyes acquired an Honours Bachelor of Arts from University of Toronto: Major in New Media, Minor in Studio, and Media Studies, and in 2014 a certificate in New Media Design from Centennial College Story Arts Centre</p>
 
-<div class="pic2">
-	<a href="work.html#web">
-		<div class="landingbox">
-		<a href="work.html#web">
-		<img class="graphic2" src="img/web.jpg">
-		<div class="centered">Web development</div>
-		</div>
-	</a>
-	<!-- <p>Lorem Ipsum</p> -->
-</div>
-
-<div class="pic2">
-	<a href="work.html#graphics">
-		<div class="landingbox">
-		<img class="graphic2" src="img/graphics.jpg">
-		<div class="centered">Graphic design</div>
-		</div>
-	</a>
-	<!-- <p>Lorem Ipsum</p> -->
-</div>
-
-<div class="pic2" id="last">
-	<a href="work.html#interactive">
-		<div class="landingbox">
-		<img class="graphic2" src="img/interactive.jpg">
-		<div class="centered">Interactive projects</div>
-		</div>
-	</a>
-	<!-- <p>Lorem Ipsum</p> -->
 </div>
 
 <footer>
@@ -109,11 +84,11 @@
 	</div>
 	<div class="nav">
 		<ul>
-			<li><a href="#web">Web</a></li> | 
-			<li><a href="#graphics">Graphics</a></li> | 
-			<li><a href="#interactive">Interactive</a></li> | 
+			<li><a href="work.html#web">Web</a></li> | 
+			<li><a href="work.html#graphics">Graphics</a></li> | 
+			<li><a href="work.html#interactive">Interactive</a></li> | 
 			<li><a href="contact.html">Contact me</a></li> | 
-			<li><a href="about.html">About me</a></li>
+			<li><a id="current" href="about.html">About me</a></li>
 		</ul>
 	</div>
 </footer>

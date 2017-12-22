@@ -3,18 +3,18 @@
 <html lang="en-us">
 <head>
 	<meta charset="utf-8">
-	<title>Louis delos Reyes</title>
+	<title>Louis delos Reyes | Contact</title>
 	<meta name="description" content="Louis delos Reyes' Online Portfolio" />
 	<meta name="keywords" content="portfolio, web, design, UX, UI" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="styles/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic+SC" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:600" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Karla:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cairo:200" rel="stylesheet">
-	<script src="js/mobilemenu.js"></script>
 	<link rel="shortcut icon" href="img/LDR32.png">
+	<script src="js/mobilemenu.js"></script>
 </head>
 <body id="all">
 
@@ -29,17 +29,22 @@
 <div class="ontop">
 	<div class="menu">
 		<ul>
-			<a href="work.html"><li id="current">Work</li></a>
+			<li><a href="work.html">Work</a></li>
+			<!--<img src="img/globe.png" alt="globe" height="35px" width="35px">-->
 		</ul>
 	</div>
 
 	<div class="rightmenu">
 		<ul>
-			<li><a href="contact.html">Media & Experience</a></li>
+			<li id="current">Media & Experience</li>
+			<!--<img src="img/chat-bubble.png" alt="chat bubble" height="35px" width="35px">-->
+			<li><a href="contact.html">Contact me</a></li>
+			<!--<img src="img/scroll.png" alt="scroll" height="35px" width="35px">-->
+			<li><a href="about.html">About me</a></li>
 		</ul>
 	</div>
 
-	<h1><a href="#">LOUIS DELOS REYES</a></h1>
+	<h1><a href="index.html">LOUIS DELOS REYES</a></h1>
 </div>
 
 <div id="fade">
@@ -50,46 +55,33 @@
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
     <a href="work.html#web" onclick="closeNav()">Web</a>
-    <a href="work.html#graphix" onclick="closeNav()">Graphics</a>
+    <a href="work.html#graphics" onclick="closeNav()">Graphics</a>
     <a href="work.html#interactive" onclick="closeNav()">Interactive</a>
-    <a href="contact.html" onclick="closeNav()">Contact me</a>
+    <a id="current" href="contact.html" onclick="closeNav()">Contact me</a>
     <a href="about.html" onclick="closeNav()">About me</a>
   </div>
 </div>
 
 <!-- w3 end https://www.w3schools.com/howto/howto_js_fullscreen_overlay.asp -->
 
-<p class="intro">Louis delos Reyes is a freelance web developer living in Toronto, ON.</p>
-
-<div class="pic2">
-	<a href="work.html#web">
-		<div class="landingbox">
-		<a href="work.html#web">
-		<img class="graphic2" src="img/web.jpg">
-		<div class="centered">Web development</div>
-		</div>
+<p class="about">
+	Say hi to me by e-mail: louisdelosreyes [at] gmail or on GitHub (@louisdelosr), LinkedIn, or Twitter (@louisdelosr)
+</p>
+<p class="links">
+	<a href="mailto:louisdelosreyes@gmail.com">
+		<img src="img/mail64.png" alt="E-mail" width="64px" height="64px">
+	</a>  
+	<a href="https://www.github.com/louisdelosr">
+		<img src="img/github64.png" alt="GitHub" width="64px" height="64px">
+	</a>  
+	<a href="https://www.linkedin.com/in/louis-delos-reyes-751b4687">
+		<img src="img/linkedin64.png" alt="LinkedIn" width="64px" height="64px">
+	</a>  
+	<a href="https://www.twitter.com/louisdelosr">
+		<img src="img/twitter64.png" alt="Twitter" width="64px" height="64px">
 	</a>
-	<!-- <p>Lorem Ipsum</p> -->
-</div>
+</p>
 
-<div class="pic2">
-	<a href="work.html#graphics">
-		<div class="landingbox">
-		<img class="graphic2" src="img/graphics.jpg">
-		<div class="centered">Graphic design</div>
-		</div>
-	</a>
-	<!-- <p>Lorem Ipsum</p> -->
-</div>
-
-<div class="pic2" id="last">
-	<a href="work.html#interactive">
-		<div class="landingbox">
-		<img class="graphic2" src="img/interactive.jpg">
-		<div class="centered">Interactive projects</div>
-		</div>
-	</a>
-	<!-- <p>Lorem Ipsum</p> -->
 </div>
 
 <footer>
@@ -109,10 +101,10 @@
 	</div>
 	<div class="nav">
 		<ul>
-			<li><a href="#web">Web</a></li> | 
-			<li><a href="#graphics">Graphics</a></li> | 
-			<li><a href="#interactive">Interactive</a></li> | 
-			<li><a href="contact.html">Contact me</a></li> | 
+			<li><a href="work.html#web">Web</a></li> | 
+			<li><a href="work.html#graphics">Graphics</a></li> | 
+			<li><a href="work.html#interactive">Interactive</a></li> | 
+			<li><a id="current" href="contact.html">Contact me</a></li> | 
 			<li><a href="about.html">About me</a></li>
 		</ul>
 	</div>
