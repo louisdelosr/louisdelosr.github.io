@@ -436,7 +436,7 @@ h1 a {
 	background-color: #99c7fc;
 }
 
-.button, .button2, .menu li, .rightmenu li, footer a img, footer a svg, .overlay a, .landingbox img, .links a svg {
+.button, .button2, .menu li, .rightmenu li, footer a, footer a svg, .overlay a, .landingbox img, .links a svg {
 	-webkit-transition: all 0.15s ease-in-out;
        -moz-transition: all 0.15s ease-in-out;
         -ms-transition: all 0.15s ease-in-out;
