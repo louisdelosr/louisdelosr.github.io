@@ -273,7 +273,7 @@ h1 a {
 	margin-top: 2rem;
 }
 
-.landingbox a, .landingbox a:visited {
+.landingbox a, a:visited {
 	color: black;
 }
 
@@ -285,6 +285,7 @@ h1 a {
 }
 
 .landingbox:hover img {
+	zoom: initial;
   	filter: alpha(opacity=1);
   	opacity: 1;
 }
@@ -435,7 +436,7 @@ h1 a {
 	background-color: #99c7fc;
 }
 
-.button, .button2, .menu li, .rightmenu li, footer a, .overlay a, .landingbox img {
+.button, .button2, .menu li, .rightmenu li, footer a img, footer a svg, .overlay a, .landingbox img, .links a svg {
 	-webkit-transition: all 0.15s ease-in-out;
        -moz-transition: all 0.15s ease-in-out;
         -ms-transition: all 0.15s ease-in-out;
@@ -467,19 +468,19 @@ footer img, .links img /*.menu a, .rightmenu a*/ {
 	margin: 3px;
 }
 
-.links:hover a img {
+.links:hover a img, .links:hover a svg {
 	opacity: 0.4;
 }
 
-.links a img:hover {
+.links a img:hover, .links a svg:hover {
 	opacity: 1;
 }
 
-.footermedia:hover a img {
+.footermedia:hover a img, .footermedia:hover a svg {
 	opacity: 0.4;
 }
 
-.footermedia a img:hover {
+.footermedia a img:hover, .footermedia a svg:hover {
 	opacity: 1;
 }
 
