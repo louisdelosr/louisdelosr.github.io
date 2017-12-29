@@ -1,7 +1,7 @@
 # louisdelosr.github.io
 Portfolio Updated December 22, 2017 [v0.2]
 
-- GUI Update
+- Major GUI Update
 
 Portfolio Updated December 29, 2017 [v0.3]
 
