@@ -210,7 +210,7 @@ p, .caption div {
 .intro {
 	/*margin-top: 125px;
 	margin-bottom: 50px;*/
-	font-size: 1.3em;
+	font-size: 1.8em;
 	margin-top: 125px;
 	margin-bottom: auto;
 	margin-left: 25px;
@@ -560,7 +560,7 @@ video {
     	width:100%;
 	}
 
-/*height media query for small horizontal screens*/
+/*height media query for small vertical screens*/
 
 @media only screen and (max-height: 35em) {
     /* For mobilemenu text being too big and making a scrollbar: */
@@ -585,11 +585,42 @@ video {
 
 /*end*/
 
+@media only screen and (max-width: 295px) {
+    /* For oversized text when horizontal screen is small (particularly happens when using inspect): */
+    img.graphic2 {
+    	border-style: outset;
+    	border-color: #535575;
+    }
+    .intro {
+    	font-size: 0.8em;
+    	margin-bottom: 3em;
+    }
+    .overlay .closebtn {
+    	font-size: 2.5em;
+    }
+    .overlay-content {
+    	font-size: 0.5em;
+    }
+    h1 {
+    	font-size: 0.1em;
+    	margin-left: 5em;
+    	margin-right: 5em;
+    	/*margin-bottom: 1.5em;
+    	margin-top: 2.6em;*/
+    }
+    .centered {
+    	font-size: 0.5em;
+    }
+    .landingbox {
+    	margin: 0.5em 0 0.5em 0;
+    }
+}
+
 @media only screen and (min-width: 28.125em) {
     /* For h1 text breaking beside mobilemenu: */
     h1 {
     	/*font-size: 1em;*/
-    	margin: 25px;
+    	/*margin: 25px;*/
     }
 }
 
